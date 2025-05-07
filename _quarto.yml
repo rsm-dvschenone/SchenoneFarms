@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Schenone Farms"
-  site-url: "https://schenonefarms.com"
+  site-url: https://schenonefarms.com
   favicon: favicon.ico
   navbar:
     background: primary
