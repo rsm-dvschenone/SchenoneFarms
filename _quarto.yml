@@ -1,10 +1,12 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
 
 website:
   title: "Schenone Farms"
-  site-url: "https://rsm-dvschenone.github.io/schenonefarms"
+  site-url: "https://schenonefarms.com"
   favicon: favicon.ico
   navbar:
     background: primary
