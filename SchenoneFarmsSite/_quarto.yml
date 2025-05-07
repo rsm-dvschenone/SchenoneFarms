@@ -1,21 +1,30 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "SchenoneFarmsSite"
+  title: "Schenone Farms"
+  site-url: "https://rsm-dvschenone.github.io/schenonefarms"
+  favicon: favicon.ico
   navbar:
+    background: primary
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Our Story"
+        href: story.qmd
+      - text: "Farmers Markets"
+        href: markets.qmd
+      - text: "Gallery"
+        href: gallery.qmd
+      - text: "Contact"
+        href: contact.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: lux
     css: styles.css
-    toc: true
-
-
-
+    toc: false
+    page-layout: full
+    
+     
