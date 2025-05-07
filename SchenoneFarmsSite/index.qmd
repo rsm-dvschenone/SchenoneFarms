@@ -1,7 +1,51 @@
 ---
-title: "SchenoneFarmsSite"
+title: "Schenone Farms"
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: false
+    page-layout: full
+    grid: {}
+website:
+  title: "Schenone Farms"
+  site-url: "https://schenonefarms.com"
+  favicon: favicon.ico
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Our Story"
+        href: story.html
+      - text: "Farmers Markets"
+        href: markets.html
+      - text: "Gallery"
+        href: gallery.html
+      - text: "Contact"
+        href: contact.html
 ---
 
-This is a Quarto website.
+```{=html}
+<!-- Hero Section -->
+<div class="hero" style="background-image: url('hero-cherries.jpg');">
+  <div class="hero-text">
+    <h1>Schenone Farms</h1>
+    <p>Hand-Picked. Family Grown. Since 1989 in Linden, CA.</p>
+    <a href="#story" class="btn btn-primary">Our Story</a>
+  </div>
+</div>
+```
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## About Us {.text-center .mt-5}
+Ernie Schenone Jr. leads our 3rd-generation Italian-American farm, growing sweet cherries and hearty walnuts in Linden, California. We bring fresh, hand-picked produce each week to San Diego’s vibrant markets.
+
+## Where to Find Us {.text-center .mt-5}
+Come visit us at Kobey’s Swap Meet in San Diego every weekend during cherry season (June–July). Follow us on Instagram @schenonefarms for updates.
+
+```{=html}
+<!-- Footer -->
+<footer class="footer mt-5">
+  <p>&copy; 2025 Schenone Farms. All rights reserved.</p>
+  <p><a href="mailto:dominic_schenone@yahoo.com">dominic_schenone@yahoo.com</a></p>
+</footer>
