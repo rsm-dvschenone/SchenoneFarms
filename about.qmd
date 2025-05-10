@@ -1,5 +1,37 @@
 ---
-title: "About"
+title: "The Story Behind Schenone Farms"
+page-layout: full
 ---
 
-About this site
+# About Us {.text-center .mt-4}
+
+```{=html}
+<img src="images/dad.jpg" alt="Ernie Schenone Jr." class="img-fluid rounded mx-auto d-block" style="max-width: 300px; margin-bottom: 1rem;">
+```
+
+**Ernie Schenone Jr.** is a fifth-generation farmer, born and raised in the agricultural heart of **Linden, California**. With roots buried deep in the Central Valley soil, Ernie grew up working in the orchards before pursuing his education and broadening his perspective.
+
+After earning a **Mechanical Engineering degree from Cal Poly San Luis Obispo**, and later an **MBA from the University of San Diego**, Ernie returned to the land that shaped him. A true entrepreneur, risk taker, and hands-on leader, he embodies both tradition and forward-thinking.
+
+Ernie took over **Schenone Farms** from his late father, **Ernie Schenone Sr.**, and has since carried the family legacy forward with grit, grace, and gratitude. As a family man and farmer at heart, he’s proud to continue nurturing the land that has supported his family for generations.
+
+```{=html}
+<img src="images/schenone_fam_portrait.JPG" alt="Working the orchard" class="img-fluid rounded mx-auto d-block" style="max-width: 600px; margin: 2rem 0;">
+```
+
+## What We Grow {.mt-4}
+
+At Schenone Farms, we specialize in **sweet cherries** — especially **Coral Champagnes** — and **California-grown walnuts**. These are more than crops to us — they’re the result of long days, careful planning, and a deep respect for the land.
+
+We believe in:
+- Hard work
+- Community service
+- Farming with integrity
+
+From our orchards to your kitchen, we’re proud to deliver the very best of Linden.
+
+```{=html}
+<img src="images/schenone_farms_truck.jpg" alt="Schenone Family Farm" class="img-fluid rounded mx-auto d-block" style="max-width: 600px; margin-top: 2rem;">
+```
+
+<p class="text-center"><em>Thank you for supporting family farms.</em></p>
