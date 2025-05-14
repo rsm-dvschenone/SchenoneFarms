@@ -20,10 +20,10 @@ website:
         href: about.qmd
       - text: "Farmers Markets"
         href: markets.qmd
+      - text: "Contact"
+        href: contactus.qmd
       - text: "Gallery"
         href: gallery.qmd
-      - text: "Contact"
-        href: contact.qmd
 
 format:
   html:

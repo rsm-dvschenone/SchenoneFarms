@@ -1,0 +1,42 @@
+---
+title: "Contact Us"
+page-layout: full
+format:
+  html:
+    toc: false
+    css: styles.css
+---
+
+## Find Us in Linden, CA
+
+<p><strong>Schenone Farms</strong><br>
+14400 E Highway 26<br>
+Linden, CA 95236</p>
+
+<img src="images/Linden_Map.png" alt="Map showing Linden, CA" class="img-fluid rounded mx-auto d-block" style="max-width: 600px; margin-bottom: 2rem;">
+
+---
+
+## Farmers Market Hours
+
+📍 **Saturdays & Sundays**  
+🕘 **7:00 AM – 3:00 PM**  
+📅 **May through July**
+
+---
+
+## Private Orders & Inquiries
+
+📧 <a href="mailto:sales@schenonefarms.com">sales@schenonefarms.com</a>  
+Interested in sourcing our cherries directly? Reach out via email to inquire about private orders and additional locations across Southern California.
+
+---
+
+## Connect With Us
+
+📸 Instagram: [@schenonefarms](https://www.instagram.com/schenonefarms)  
+💼 LinkedIn: [Dominic Schenone](https://www.linkedin.com/in/dominicschenone) <!-- Replace with your actual LinkedIn if needed -->
+
+---
+
+<p class="text-center"><em>We look forward to sharing our cherries with you this season!</em></p>
