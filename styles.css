@@ -1,41 +1,47 @@
-/* Hero section */
 .hero {
-    background-image: url('images/rainers.jpg'); /* Replace with your image */
+    position: relative;
+    height: 400px;
+    background-image: url('images/rainers.jpg'); /* or your image path */
     background-size: cover;
     background-position: center;
-    padding: 6rem 2rem;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    position: relative;
+    color: white;
+    overflow: hidden;
   }
   
-  .hero::after {
+  .hero::before {
     content: '';
-    background-color: rgba(0,0,0,0.4);
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    z-index: 0;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for text visibility */
+    z-index: 1;
   }
   
   .hero-text {
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
   }
   
   .hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
   }
   
   .hero p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
   }
   
   .cta-button {
     background-color: #c0392b;
     color: white;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1.25rem;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
@@ -45,15 +51,3 @@
   .cta-button:hover {
     background-color: #a93226;
   }
-  
-  /* Intro and seasonal sections */
-  .intro, .seasonal {
-    padding: 4rem 2rem;
-    text-align: center;
-  }
-  
-  .intro h2, .seasonal h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  

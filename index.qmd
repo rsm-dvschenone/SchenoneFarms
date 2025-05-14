@@ -7,13 +7,7 @@ format:
     css: styles.css
 ---
 
-<div class="hero">
-  <div class="hero-text">
-    <h1>Welcome to Schenone Farms</h1>
-    <p>Fresh Linden-grown cherries, handpicked for San Diego families.</p>
-    <a href="markets.qmd" class="cta-button">Find Us at the Market</a>
-  </div>
-</div>
+
 
 <section class="intro">
   <h2>Rooted in Family, Grown with Love</h2>
