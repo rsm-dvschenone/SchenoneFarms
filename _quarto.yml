@@ -4,6 +4,7 @@ project:
   resources:
     - CNAME
     - images
+    - styles.css
 
 website:
   title: "Schenone Farms"
