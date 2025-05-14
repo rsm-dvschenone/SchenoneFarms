@@ -7,8 +7,7 @@ format:
     css: styles.css
 ---
 
-<div class="hero">
-</div>
+<img src="images/schenone_farms_truck.JPG" alt="Working the orchard" class="img-fluid rounded mx-auto d-block" style="max-width: 600px; margin: 2rem 0;">
 
 <section class="intro">
   <h2>Rooted in Family, Grown with Love</h2>
