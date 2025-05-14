@@ -3,11 +3,13 @@ project:
   output-dir: docs
   resources:
     - CNAME
+    - images
 
 website:
   title: "Schenone Farms"
   site-url: https://schenonefarms.com
   favicon: favicon.ico
+  search: false
   navbar:
     background: primary
     left:
