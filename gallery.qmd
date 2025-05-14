@@ -1,0 +1,48 @@
+---
+title: "Photo Gallery"
+page-layout: full
+format:
+  html:
+    toc: false
+    css: styles.css
+---
+
+<div id="gallery" class="gallery-grid">
+  <!-- Images will be injected here by JavaScript -->
+</div>
+
+<script>
+  const images = [
+    { src: "images/blossoms.jpg", caption: "Cherry Blossoms Blooming" },
+    { src: "images/cherry_closeup.jpg", caption: "Sweet Cherries Up Close" },
+    { src: "images/bin_of_cherries.jpg", caption: "Freshly Picked Harvest" },
+    { src: "images/dirty_dad.jpg", caption: "Ernie Hard at Work" },
+    { src: "images/fat_cherry.jpg", caption: "Perfectly Ripe" },
+    { src: "images/cherry_branch.jpg", caption: "A Loaded Branch" },
+    { src: "images/rows_of_cherries.jpg", caption: "Rows of Rainiers" },
+    { src: "images/3_wops.JPG", caption: "Father and Son!" },
+    { src: "images/schenone_family_historical.jpg", caption: "Father and Son!" }
+
+
+  ];
+
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  shuffle(images);
+
+  const gallery = document.getElementById("gallery");
+  images.forEach(({ src, caption }) => {
+    const wrapper = document.createElement("div");
+    wrapper.className = "gallery-item";
+    wrapper.innerHTML = `
+      <img src="${src}" alt="${caption}">
+      <p class="caption">${caption}</p>
+    `;
+    gallery.appendChild(wrapper);
+  });
+</script>
